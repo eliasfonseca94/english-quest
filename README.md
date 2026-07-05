@@ -35,22 +35,36 @@ mano o porque un flujo de Make.com lo actualiza. Formato de cada pregunta:
 ```json
 {
   "type": "Grammar",
+  "difficulty": 2,
   "q": "Tu pregunta en inglés",
   "options": ["A", "B", "C", "D"],
   "answer": 1,
-  "explain": "Explicación en español"
+  "explain": { "es": "Explicación en español", "pt": "Explicação em português" }
 }
 ```
 
 `type` puede ser Grammar, Vocabulary o Reading. `answer` es el índice correcto
-(0=A, 1=B, 2=C, 3=D). En cada partida el juego mezcla el orden de las
-preguntas y el de las alternativas, así que no se repiten siempre igual.
+(0=A, 1=B, 2=C, 3=D). `difficulty` es un número (1=fácil, 2=medio, 3=difícil,
+o los niveles que quieras agregar): dentro de cada destino, el juego ordena
+las preguntas de menor a mayor dificultad, mezclando el orden dentro de cada
+nivel — así cada partida escala en dificultad y nunca se repite igual.
+`explain` es un objeto `{ es, pt }`: el juego muestra el texto según el idioma
+elegido en la pantalla de bienvenida.
 
 ## 🌍 Cómo agregar un destino nuevo
 
 Edita `data/questions.json` (o su fuente en el repo privado) y agrega un
-bloque completo `{ "id", "name", "flag", "level", "desc", "questions" }`, con
-un `id` único. El pasaporte y el menú se actualizan solos.
+bloque completo `{ "id", "flag", "name", "level", "desc", "questions" }`, donde
+`name`, `level` y `desc` también son objetos `{ es, pt }`. Usa un `id` único.
+El pasaporte y el menú se actualizan solos.
+
+## 🌐 Idiomas
+
+Al entrar, el juego pide elegir español o portugués (se guarda en
+`localStorage` y se puede cambiar después con el enlace "Cambiar idioma" en
+la pantalla de inicio). Esa elección solo cambia el idioma de la interfaz y
+de las explicaciones — las preguntas y alternativas siempre están en inglés,
+porque es el idioma que se está aprendiendo.
 
 ## 🎮 Mecánicas
 
