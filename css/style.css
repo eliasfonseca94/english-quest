@@ -93,6 +93,59 @@ body {
   .screen.active { animation: none; }
 }
 
+/* ---------- Bienvenida / selector de idioma ---------- */
+.welcome-card {
+  position: relative; z-index: 1;
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 30px 24px;
+  margin-top: 6vh;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.welcome-card h2 { font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 8px; }
+.welcome-card p { opacity: 0.75; margin-bottom: 24px; }
+
+.lang-options {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+.lang-option {
+  flex: 1;
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 12px;
+  border-radius: 14px;
+  border: 2px solid var(--paper-dark);
+  background: #fff;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--ink);
+  transition: border-color 0.15s ease, transform 0.1s ease;
+}
+.lang-option:hover { transform: translateY(-2px); border-color: var(--gold); }
+.lang-option.selected { border-color: var(--teal); background: #e2f3ee; }
+.lang-flag { font-size: 2rem; }
+
+.btn-lang-switch {
+  display: block;
+  margin: 14px auto 0;
+  background: none;
+  border: none;
+  color: rgba(246, 239, 224, 0.6);
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.btn-lang-switch:hover { color: var(--gold); }
+
 /* ---------- Cabecera inicio ---------- */
 .home-header { position: relative; z-index: 1; text-align: center; padding-top: 30px; }
 
