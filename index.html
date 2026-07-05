@@ -12,8 +12,36 @@
 </head>
 <body>
 
+  <!-- ============ PANTALLA DE BIENVENIDA / IDIOMA ============ -->
+  <section id="screen-welcome" class="screen active">
+    <div class="sky">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+      <div class="plane">✈️</div>
+    </div>
+    <header class="home-header">
+      <h1>English<span class="accent">Quest</span></h1>
+    </header>
+    <div class="welcome-card">
+      <h2 id="welcome-title"></h2>
+      <p id="welcome-subtitle"></p>
+      <div class="lang-options">
+        <button id="lang-es" class="lang-option">
+          <span class="lang-flag">🇪🇸</span>
+          <span class="lang-name"></span>
+        </button>
+        <button id="lang-pt" class="lang-option">
+          <span class="lang-flag">🇧🇷</span>
+          <span class="lang-name"></span>
+        </button>
+      </div>
+      <button id="btn-welcome-continue" class="btn-primary"></button>
+    </div>
+  </section>
+
   <!-- ============ PANTALLA DE INICIO ============ -->
-  <section id="screen-home" class="screen active">
+  <section id="screen-home" class="screen">
     <div class="sky">
       <div class="cloud c1"></div>
       <div class="cloud c2"></div>
@@ -22,34 +50,35 @@
     </div>
 
     <header class="home-header">
-      <p class="eyebrow">BOARDING PASS · TARJETA DE EMBARQUE</p>
+      <p class="eyebrow" id="ui-eyebrow"></p>
       <h1>English<span class="accent">Quest</span></h1>
-      <p class="tagline">Cada pregunta te acerca a un nuevo destino.<br/>Gana XP, mantén tu racha y llena tu pasaporte de sellos.</p>
+      <p class="tagline" id="ui-tagline"></p>
+      <button id="btn-change-lang" class="btn-lang-switch"></button>
     </header>
 
     <div class="stats-bar">
       <div class="stat">
         <span class="stat-num" id="home-xp">0</span>
-        <span class="stat-label">XP total</span>
+        <span class="stat-label" id="ui-stat-xp-label"></span>
       </div>
       <div class="stat">
         <span class="stat-num" id="home-stamps">0</span>
-        <span class="stat-label">Sellos</span>
+        <span class="stat-label" id="ui-stat-stamps-label"></span>
       </div>
       <div class="stat">
         <span class="stat-num" id="home-best-streak">0</span>
-        <span class="stat-label">Mejor racha</span>
+        <span class="stat-label" id="ui-stat-streak-label"></span>
       </div>
     </div>
 
-    <h2 class="section-title">Elige tu destino</h2>
+    <h2 class="section-title" id="ui-choose-dest"></h2>
 
     <div id="destinations" class="destinations">
       <!-- Las tarjetas de destino se generan con JavaScript -->
     </div>
 
-    <button id="btn-passport" class="btn-ghost">📖 Ver mi pasaporte</button>
-    <button id="btn-reset" class="btn-reset">Reiniciar progreso</button>
+    <button id="btn-passport" class="btn-ghost"></button>
+    <button id="btn-reset" class="btn-reset"></button>
   </section>
 
   <!-- ============ PANTALLA DE JUEGO ============ -->
@@ -87,12 +116,12 @@
       <h2 id="results-title"></h2>
       <p id="results-sub"></p>
       <div class="results-stats">
-        <div class="rstat"><span id="results-correct">0</span><small>Correctas</small></div>
-        <div class="rstat"><span id="results-xp">0</span><small>XP ganados</small></div>
-        <div class="rstat"><span id="results-streak">0</span><small>Racha máx.</small></div>
+        <div class="rstat"><span id="results-correct">0</span><small id="ui-results-correct-label"></small></div>
+        <div class="rstat"><span id="results-xp">0</span><small id="ui-results-xp-label"></small></div>
+        <div class="rstat"><span id="results-streak">0</span><small id="ui-results-streak-label"></small></div>
       </div>
-      <button id="btn-retry" class="btn-ghost">↻ Repetir destino</button>
-      <button id="btn-home" class="btn-primary">Volver al mapa</button>
+      <button id="btn-retry" class="btn-ghost"></button>
+      <button id="btn-home" class="btn-primary"></button>
     </div>
   </section>
 
@@ -100,11 +129,11 @@
   <section id="screen-passport" class="screen">
     <div class="passport">
       <div class="passport-header">
-        <span>PASSPORT · PASAPORTE</span>
+        <span id="ui-passport-eyebrow"></span>
         <h2>English Quest</h2>
       </div>
       <div class="passport-grid" id="passport-grid"></div>
-      <button id="btn-passport-back" class="btn-primary">← Volver</button>
+      <button id="btn-passport-back" class="btn-primary"></button>
     </div>
   </section>
 

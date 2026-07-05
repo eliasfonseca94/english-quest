@@ -1,156 +1,239 @@
 [
   {
     "id": "london",
-    "name": "Londres",
     "flag": "🇬🇧",
-    "level": "Principiante",
-    "desc": "Lo básico: verbos, plurales y vocabulario cotidiano.",
+    "name": { "es": "Londres", "pt": "Londres" },
+    "level": { "es": "Principiante", "pt": "Iniciante" },
+    "desc": {
+      "es": "Lo básico: verbos, plurales y vocabulario cotidiano.",
+      "pt": "O básico: verbos, plurais e vocabulário do dia a dia."
+    },
     "questions": [
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "What is the opposite of 'big'?",
         "options": ["Tall", "Small", "Long", "Fast"],
         "answer": 1,
-        "explain": "Big (grande) ↔ Small (pequeño). Tall es alto, long es largo y fast es rápido."
+        "explain": {
+          "es": "Big (grande) ↔ Small (pequeño). Tall es alto, long es largo y fast es rápido.",
+          "pt": "Big (grande) ↔ Small (pequeno). Tall é alto, long é longo e fast é rápido."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "She _______ coffee every morning.",
         "options": ["drink", "drinks", "drinking", "drank"],
         "answer": 1,
-        "explain": "Con he/she/it en presente simple, el verbo lleva -s: she drinks, he works, it rains."
+        "explain": {
+          "es": "Con he/she/it en presente simple, el verbo lleva -s: she drinks, he works, it rains.",
+          "pt": "Com he/she/it no presente simples, o verbo recebe -s: she drinks, he works, it rains."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "Which word means 'viaje'?",
         "options": ["Trip", "Trap", "Tape", "Type"],
         "answer": 0,
-        "explain": "Trip = viaje. Cuidado con los parecidos: trap (trampa), tape (cinta), type (tipo/escribir)."
+        "explain": {
+          "es": "Trip = viaje. Cuidado con los parecidos: trap (trampa), tape (cinta), type (tipo/escribir).",
+          "pt": "Trip = viagem. Cuidado com as palavras parecidas: trap (armadilha), tape (fita), type (tipo/digitar)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "_______ are you from?",
         "options": ["What", "Who", "Where", "When"],
         "answer": 2,
-        "explain": "Where = dónde (lugar). What = qué, who = quién, when = cuándo."
+        "explain": {
+          "es": "Where = dónde (lugar). What = qué, who = quién, when = cuándo.",
+          "pt": "Where = onde (lugar). What = o quê, who = quem, when = quando."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "There _______ two airports in this city.",
         "options": ["is", "are", "be", "am"],
         "answer": 1,
-        "explain": "There are + plural (two airports). There is + singular (one airport)."
+        "explain": {
+          "es": "There are + plural (two airports). There is + singular (one airport).",
+          "pt": "There are + plural (two airports). There is + singular (one airport)."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "You use a _______ to travel to another country.",
         "options": ["password", "passport", "pastime", "pasture"],
         "answer": 1,
-        "explain": "Passport = pasaporte. Password es contraseña — ¡no los confundas en el aeropuerto! 😄"
+        "explain": {
+          "es": "Passport = pasaporte. Password es contraseña — ¡no los confundas en el aeropuerto! 😄",
+          "pt": "Passport = passaporte. Password é senha — não confunda os dois no aeroporto! 😄"
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 2,
         "q": "\"The museum is open from 9 AM to 5 PM, Monday to Saturday.\" — Can you visit on Sunday?",
         "options": ["Yes, all day", "Yes, only in the morning", "No, it's closed", "Only with a ticket"],
         "answer": 2,
-        "explain": "Dice 'Monday to Saturday' (lunes a sábado), así que el domingo está cerrado (closed)."
+        "explain": {
+          "es": "Dice 'Monday to Saturday' (lunes a sábado), así que el domingo está cerrado (closed).",
+          "pt": "O texto diz 'Monday to Saturday' (segunda a sábado), então no domingo está fechado (closed)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "I _______ to the gym yesterday.",
         "options": ["go", "goes", "went", "going"],
         "answer": 2,
-        "explain": "'Yesterday' indica pasado → went (pasado irregular de go)."
+        "explain": {
+          "es": "'Yesterday' indica pasado → went (pasado irregular de go).",
+          "pt": "'Yesterday' indica passado → went (passado irregular de go)."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "What is the opposite of 'hot'?",
         "options": ["Cold", "Warm", "Wet", "Fast"],
         "answer": 0,
-        "explain": "Hot (caliente) ↔ Cold (frío). Warm es tibio, wet es mojado."
+        "explain": {
+          "es": "Hot (caliente) ↔ Cold (frío). Warm es tibio, wet es mojado.",
+          "pt": "Hot (quente) ↔ Cold (frio). Warm é morno, wet é molhado."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "What's the plural of 'child'?",
         "options": ["Childs", "Childes", "Children", "Childrens"],
         "answer": 2,
-        "explain": "Child es irregular: su plural es children, no lleva -s como los sustantivos regulares."
+        "explain": {
+          "es": "Child es irregular: su plural es children, no lleva -s como los sustantivos regulares.",
+          "pt": "Child é irregular: o plural é children, não leva -s como os substantivos regulares."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "Which word means 'equipaje'?",
         "options": ["Luggage", "Language", "Lounge", "Ledge"],
         "answer": 0,
-        "explain": "Luggage = equipaje. Language es idioma, lounge es sala de espera."
+        "explain": {
+          "es": "Luggage = equipaje. Language es idioma, lounge es sala de espera.",
+          "pt": "Luggage = bagagem. Language é idioma, lounge é sala de espera."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "They _______ from Spain.",
         "options": ["is", "am", "are", "be"],
         "answer": 2,
-        "explain": "They (plural) + are. He/she/it usa is, I usa am."
+        "explain": {
+          "es": "They (plural) + are. He/she/it usa is, I usa am.",
+          "pt": "They (plural) + are. He/she/it usa is, I usa am."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "I usually _______ breakfast at 7 AM.",
         "options": ["have", "has", "having", "had"],
         "answer": 0,
-        "explain": "Con I/you/we/they en presente simple se usa la forma base del verbo: have."
+        "explain": {
+          "es": "Con I/you/we/they en presente simple se usa la forma base del verbo: have.",
+          "pt": "Com I/you/we/they no presente simples usa-se a forma base do verbo: have."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 2,
         "q": "\"Flight AA202 to London has been delayed by two hours.\" — What happened to the flight?",
         "options": ["It was cancelled", "It left early", "It is late", "It landed"],
         "answer": 2,
-        "explain": "Delayed = retrasado. El vuelo saldrá más tarde de lo previsto, no fue cancelado."
+        "explain": {
+          "es": "Delayed = retrasado. El vuelo saldrá más tarde de lo previsto, no fue cancelado.",
+          "pt": "Delayed = atrasado. O voo vai sair mais tarde do que o previsto, não foi cancelado."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "What do you call the document you show before boarding a plane?",
         "options": ["Ticket", "Boarding pass", "Receipt", "Map"],
         "answer": 1,
-        "explain": "Boarding pass = pase de abordar. Ticket es más general (boleto)."
+        "explain": {
+          "es": "Boarding pass = pase de abordar. Ticket es más general (boleto).",
+          "pt": "Boarding pass = cartão de embarque. Ticket é mais genérico (passagem/bilhete)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "How _______ apples do you want?",
         "options": ["much", "many", "few", "little"],
         "answer": 1,
-        "explain": "Many se usa con sustantivos contables en plural (apples). Much es para incontables."
+        "explain": {
+          "es": "Many se usa con sustantivos contables en plural (apples). Much es para incontables.",
+          "pt": "Many é usado com substantivos contáveis no plural (apples). Much é para incontáveis."
+        }
       }
     ]
   },
 
   {
     "id": "newyork",
-    "name": "Nueva York",
     "flag": "🇺🇸",
-    "level": "Intermedio",
-    "desc": "Tiempos verbales, phrasal verbs y comprensión.",
+    "name": { "es": "Nueva York", "pt": "Nova York" },
+    "level": { "es": "Intermedio", "pt": "Intermediário" },
+    "desc": {
+      "es": "Tiempos verbales, phrasal verbs y comprensión.",
+      "pt": "Tempos verbais, phrasal verbs e compreensão de texto."
+    },
     "questions": [
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "I have lived here _______ 2020.",
         "options": ["for", "since", "during", "from"],
         "answer": 1,
-        "explain": "Since + punto en el tiempo (since 2020). For + duración (for six years)."
+        "explain": {
+          "es": "Since + punto en el tiempo (since 2020). For + duración (for six years).",
+          "pt": "Since + ponto no tempo (since 2020). For + duração (for six years)."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "The company decided to 'put off' the meeting. What does 'put off' mean?",
         "options": ["Cancel", "Postpone", "Start", "Shorten"],
         "answer": 1,
-        "explain": "Put off = postpone (posponer). Es uno de los phrasal verbs más comunes en el trabajo."
+        "explain": {
+          "es": "Put off = postpone (posponer). Es uno de los phrasal verbs más comunes en el trabajo.",
+          "pt": "Put off = postpone (adiar). É um dos phrasal verbs mais comuns no ambiente de trabalho."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "If it rains tomorrow, we _______ at home.",
         "options": ["stayed", "will stay", "would stay", "stay"],
         "answer": 1,
-        "explain": "Primer condicional: If + presente simple, will + verbo base. Situación real y futura."
+        "explain": {
+          "es": "Primer condicional: If + presente simple, will + verbo base. Situación real y futura.",
+          "pt": "Primeiro condicional: If + presente simples, will + verbo base. Situação real e futura."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"Despite the heavy traffic, Maria arrived on time.\" — What does this tell us?",
         "options": [
           "Maria was late because of traffic",
@@ -159,59 +242,91 @@
           "Maria avoided the traffic"
         ],
         "answer": 2,
-        "explain": "Despite = a pesar de. Hubo tráfico pesado PERO llegó a tiempo (on time = puntual)."
+        "explain": {
+          "es": "Despite = a pesar de. Hubo tráfico pesado PERO llegó a tiempo (on time = puntual).",
+          "pt": "Despite = apesar de. Houve trânsito pesado, MAS ela chegou na hora (on time = pontual)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "She's the person _______ helped me find a job.",
         "options": ["which", "who", "whose", "where"],
         "answer": 1,
-        "explain": "Who se usa para personas. Which para cosas, whose para posesión, where para lugares."
+        "explain": {
+          "es": "Who se usa para personas. Which para cosas, whose para posesión, where para lugares.",
+          "pt": "Who é usado para pessoas. Which para coisas, whose para posse, where para lugares."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "Which word means 'to improve a skill through repeated exercise'?",
         "options": ["To waste", "To practice", "To forget", "To describe"],
         "answer": 1,
-        "explain": "To practice = practicar. Exactly what you're doing right now 💪"
+        "explain": {
+          "es": "To practice = practicar. Exactly what you're doing right now 💪",
+          "pt": "To practice = praticar. Exactly what you're doing right now 💪"
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "You _______ smoke inside the airport. It's forbidden.",
         "options": ["must", "mustn't", "don't have to", "should"],
         "answer": 1,
-        "explain": "Mustn't = prohibición (no debes). 'Don't have to' significa que no es necesario, ¡es distinto!"
+        "explain": {
+          "es": "Mustn't = prohibición (no debes). 'Don't have to' significa que no es necesario, ¡es distinto!",
+          "pt": "Mustn't = proibição (não deve). 'Don't have to' significa que não é necessário — é diferente!"
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"The flight was delayed due to bad weather.\" — Why was the flight late?",
         "options": ["Mechanical problems", "The weather", "Too many passengers", "A strike"],
         "answer": 1,
-        "explain": "Due to = debido a. Bad weather = mal tiempo. 'Delayed' significa retrasado."
+        "explain": {
+          "es": "Due to = debido a. Bad weather = mal tiempo. 'Delayed' significa retrasado.",
+          "pt": "Due to = devido a. Bad weather = mau tempo. 'Delayed' significa atrasado."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "I _______ never been to Australia before.",
         "options": ["have", "has", "had", "having"],
         "answer": 0,
-        "explain": "Present perfect con I/you/we/they: have + participio (been)."
+        "explain": {
+          "es": "Present perfect con I/you/we/they: have + participio (been).",
+          "pt": "Present perfect com I/you/we/they: have + particípio (been)."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "The meeting was 'called off' at the last minute. What does 'called off' mean?",
         "options": ["Postponed", "Cancelled", "Started early", "Extended"],
         "answer": 1,
-        "explain": "Call off = cancel (cancelar). Distinto de 'put off' (postpone/posponer)."
+        "explain": {
+          "es": "Call off = cancel (cancelar). Distinto de 'put off' (postpone/posponer).",
+          "pt": "Call off = cancel (cancelar). Diferente de 'put off' (postpone/adiar)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "If I _______ more time, I would travel more often.",
         "options": ["have", "had", "will have", "having"],
         "answer": 1,
-        "explain": "Segundo condicional: If + pasado simple (had), would + verbo base. Situación hipotética presente."
+        "explain": {
+          "es": "Segundo condicional: If + pasado simple (had), would + verbo base. Situación hipotética presente.",
+          "pt": "Segundo condicional: If + passado simples (had), would + verbo base. Situação hipotética no presente."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"Although it was raining, the flight departed on schedule.\" — What does this tell us?",
         "options": [
           "The flight was delayed by rain",
@@ -220,104 +335,159 @@
           "The flight was cancelled"
         ],
         "answer": 1,
-        "explain": "Although = aunque. A pesar de la lluvia, el vuelo salió a tiempo (on schedule)."
+        "explain": {
+          "es": "Although = aunque. A pesar de la lluvia, el vuelo salió a tiempo (on schedule).",
+          "pt": "Although = embora/apesar de. Mesmo com a chuva, o voo saiu no horário (on schedule)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "This is the hotel _______ we stayed last summer.",
         "options": ["who", "which", "where", "whose"],
         "answer": 2,
-        "explain": "Where se usa para lugares (the hotel where...). Who es personas, whose es posesión."
+        "explain": {
+          "es": "Where se usa para lugares (the hotel where...). Who es personas, whose es posesión.",
+          "pt": "Where é usado para lugares (the hotel where...). Who é para pessoas, whose para posse."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 1,
         "q": "Which word means 'to reserve something in advance'?",
         "options": ["To cancel", "To book", "To lose", "To board"],
         "answer": 1,
-        "explain": "To book = reservar. Ejemplo: 'I booked a hotel room online.'"
+        "explain": {
+          "es": "To book = reservar. Ejemplo: 'I booked a hotel room online.'",
+          "pt": "To book = reservar. Exemplo: 'I booked a hotel room online.'"
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 1,
         "q": "You _______ arrive early; the gates open at 6 AM sharp.",
         "options": ["should", "shouldn't", "mustn't", "don't have to"],
         "answer": 0,
-        "explain": "Should = recomendación (deberías). Aquí se sugiere llegar temprano porque las puertas abren a las 6 AM."
+        "explain": {
+          "es": "Should = recomendación (deberías). Aquí se sugiere llegar temprano porque las puertas abren a las 6 AM.",
+          "pt": "Should = recomendação (você deveria). Aqui sugere chegar cedo porque os portões abrem às 6h."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"The airline offered a refund because the flight was cancelled.\" — Why did passengers get their money back?",
         "options": ["The flight was late", "The flight was cancelled", "The flight was overbooked", "The plane changed gates"],
         "answer": 1,
-        "explain": "Refund = reembolso. Se dio porque el vuelo fue cancelado (cancelled), no solo retrasado."
+        "explain": {
+          "es": "Refund = reembolso. Se dio porque el vuelo fue cancelado (cancelled), no solo retrasado.",
+          "pt": "Refund = reembolso. Foi dado porque o voo foi cancelado (cancelled), não só atrasado."
+        }
       }
     ]
   },
 
   {
     "id": "sydney",
-    "name": "Sídney",
     "flag": "🇦🇺",
-    "level": "Avanzado",
-    "desc": "Condicionales, voz pasiva y vocabulario profesional.",
+    "name": { "es": "Sídney", "pt": "Sydney" },
+    "level": { "es": "Avanzado", "pt": "Avançado" },
+    "desc": {
+      "es": "Condicionales, voz pasiva y vocabulario profesional.",
+      "pt": "Condicionais, voz passiva e vocabulário profissional."
+    },
     "questions": [
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "If the company _______ usage limits earlier, it wouldn't have burned its budget.",
         "options": ["would set", "had set", "has set", "set"],
         "answer": 1,
-        "explain": "Tercer condicional: If + past perfect (had set), would have + participio. Situación hipotética del pasado. ¿Te suena? 😉"
+        "explain": {
+          "es": "Tercer condicional: If + past perfect (had set), would have + participio. Situación hipotética del pasado. ¿Te suena? 😉",
+          "pt": "Terceiro condicional: If + past perfect (had set), would have + particípio. Situação hipotética do passado. Já ouviu falar? 😉"
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "The 'rationale' behind a decision is closest in meaning to:",
         "options": ["The emotional reaction", "The underlying reason", "The financial cost", "The announcement"],
         "answer": 1,
-        "explain": "Rationale = la razón o justificación de fondo. Palabra muy frecuente en textos académicos e IELTS."
+        "explain": {
+          "es": "Rationale = la razón o justificación de fondo. Palabra muy frecuente en textos académicos e IELTS.",
+          "pt": "Rationale = a razão ou justificativa de fundo. Palavra muito comum em textos acadêmicos e no IELTS."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "Access to the new model _______ by the government until the framework is finalized.",
         "options": ["is restricting", "restricts", "is being restricted", "has restricted"],
         "answer": 2,
-        "explain": "Voz pasiva en presente continuo: is/are + being + participio. Común en textos técnicos y de noticias."
+        "explain": {
+          "es": "Voz pasiva en presente continuo: is/are + being + participio. Común en textos técnicos y de noticias.",
+          "pt": "Voz passiva no presente contínuo: is/are + being + particípio. Comum em textos técnicos e jornalísticos."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "ETFs posted $4.5 billion in net 'outflows'. What are outflows?",
         "options": ["Profits generated", "Money being withdrawn", "New investors joining", "Fees charged"],
         "answer": 1,
-        "explain": "Outflows = dinero saliendo (retiros). Lo contrario es inflows (dinero entrando). Vocabulario clave de mercados."
+        "explain": {
+          "es": "Outflows = dinero saliendo (retiros). Lo contrario es inflows (dinero entrando). Vocabulario clave de mercados.",
+          "pt": "Outflows = dinheiro saindo (retiradas). O oposto é inflows (dinheiro entrando). Vocabulário-chave do mercado financeiro."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 2,
         "q": "\"The statement was rare, which underscores the severity of the threat.\" — 'Underscores' means:",
         "options": ["Contradicts", "Emphasizes", "Hides", "Questions"],
         "answer": 1,
-        "explain": "Underscore = subrayar, enfatizar. Sinónimos útiles: highlight, emphasize, stress."
+        "explain": {
+          "es": "Underscore = subrayar, enfatizar. Sinónimos útiles: highlight, emphasize, stress.",
+          "pt": "Underscore = sublinhar, enfatizar. Sinônimos úteis: highlight, emphasize, stress."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "By the time we land, the crew _______ three meals.",
         "options": ["will serve", "will have served", "has served", "is serving"],
         "answer": 1,
-        "explain": "Future perfect: will have + participio. Acción que estará completada antes de un momento futuro."
+        "explain": {
+          "es": "Future perfect: will have + participio. Acción que estará completada antes de un momento futuro.",
+          "pt": "Future perfect: will have + particípio. Ação que estará concluída antes de um momento futuro."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "A 'liability' in a financial context is:",
         "options": ["An asset that grows", "A legal or financial obligation", "A type of insurance", "A profit margin"],
         "answer": 1,
-        "explain": "Liability = pasivo, obligación o responsabilidad financiera/legal. Opuesto a asset (activo)."
+        "explain": {
+          "es": "Liability = pasivo, obligación o responsabilidad financiera/legal. Opuesto a asset (activo).",
+          "pt": "Liability = passivo, obrigação ou responsabilidade financeira/legal. Oposto de asset (ativo)."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "Not only _______ the exam, but she also got the highest score.",
         "options": ["she passed", "did she pass", "she did pass", "passed she"],
         "answer": 1,
-        "explain": "Inversión con 'Not only': Not only + auxiliar + sujeto + verbo. Estructura avanzada que suma puntos en IELTS writing."
+        "explain": {
+          "es": "Inversión con 'Not only': Not only + auxiliar + sujeto + verbo. Estructura avanzada que suma puntos en IELTS writing.",
+          "pt": "Inversão com 'Not only': Not only + auxiliar + sujeito + verbo. Estrutura avançada que soma pontos no IELTS writing."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"Had the ETF inflows stabilized, analysts would have revised their targets upward.\" — What actually happened?",
         "options": [
           "Inflows stabilized and targets went up",
@@ -326,70 +496,109 @@
           "The ETFs closed"
         ],
         "answer": 1,
-        "explain": "Tercer condicional invertido (Had X happened = If X had happened). Describe algo que NO ocurrió: los flujos no se estabilizaron."
+        "explain": {
+          "es": "Tercer condicional invertido (Had X happened = If X had happened). Describe algo que NO ocurrió: los flujos no se estabilizaron.",
+          "pt": "Terceiro condicional invertido (Had X happened = If X had happened). Descreve algo que NÃO aconteceu: os fluxos não se estabilizaram."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "Were it not for the strict visa rules, more tourists _______ this country.",
         "options": ["would visit", "will visit", "visited", "have visited"],
         "answer": 0,
-        "explain": "'Were it not for' = 'If it were not for' (si no fuera por). Inversión del segundo condicional: would + verbo base."
+        "explain": {
+          "es": "'Were it not for' = 'If it were not for' (si no fuera por). Inversión del segundo condicional: would + verbo base.",
+          "pt": "'Were it not for' = 'If it were not for' (se não fosse por). Inversão do segundo condicional: would + verbo base."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "A 'subsidiary' company is best described as:",
         "options": ["An independent competitor", "A company controlled by another (parent) company", "A government agency", "A type of currency"],
         "answer": 1,
-        "explain": "Subsidiary = filial, empresa controlada por una matriz (parent company). Vocabulario común en negocios."
+        "explain": {
+          "es": "Subsidiary = filial, empresa controlada por una matriz (parent company). Vocabulario común en negocios.",
+          "pt": "Subsidiary = subsidiária/filial, empresa controlada por uma matriz (parent company). Vocabulário comum em negócios."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 2,
         "q": "The proposal, _______ was rejected twice, will be presented again next month.",
         "options": ["that", "which", "who", "whose"],
         "answer": 1,
-        "explain": "Which introduce una cláusula no restrictiva sobre cosas (the proposal). 'That' no se usa después de coma en este tipo de cláusula."
+        "explain": {
+          "es": "Which introduce una cláusula no restrictiva sobre cosas (the proposal). 'That' no se usa después de coma en este tipo de cláusula.",
+          "pt": "Which introduz uma oração não restritiva sobre coisas (the proposal). 'That' não é usado depois de vírgula nesse tipo de oração."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "To 'mitigate' a risk means to:",
         "options": ["Increase it", "Reduce its severity", "Ignore it", "Transfer it to someone else"],
         "answer": 1,
-        "explain": "Mitigate = mitigar, reducir el impacto o severidad de algo. Muy común en informes de riesgo."
+        "explain": {
+          "es": "Mitigate = mitigar, reducir el impacto o severidad de algo. Muy común en informes de riesgo.",
+          "pt": "Mitigate = mitigar, reduzir o impacto ou a gravidade de algo. Muito comum em relatórios de risco."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"Were it not for the analysts' warnings, the fund would have doubled its exposure.\" — What actually happened?",
         "options": ["The fund doubled its exposure", "The fund did not double its exposure", "The analysts were ignored", "The fund closed"],
         "answer": 1,
-        "explain": "La estructura hipotética indica que, gracias a las advertencias, el fondo NO duplicó su exposición."
+        "explain": {
+          "es": "La estructura hipotética indica que, gracias a las advertencias, el fondo NO duplicó su exposición.",
+          "pt": "A estrutura hipotética indica que, graças aos avisos, o fundo NÃO dobrou sua exposição."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "Scarcely _______ the announcement been made when share prices dropped.",
         "options": ["had", "did", "has", "was"],
         "answer": 0,
-        "explain": "Inversión con 'scarcely... when': Scarcely + had + sujeto + participio. Estructura formal avanzada."
+        "explain": {
+          "es": "Inversión con 'scarcely... when': Scarcely + had + sujeto + participio. Estructura formal avanzada.",
+          "pt": "Inversão com 'scarcely... when': Scarcely + had + sujeito + particípio. Estrutura formal avançada."
+        }
       },
       {
         "type": "Vocabulary",
+        "difficulty": 2,
         "q": "The report's 'implications' are best understood as its:",
         "options": ["Introduction", "Possible consequences", "Authors", "Formatting"],
         "answer": 1,
-        "explain": "Implications = implicaciones, consecuencias posibles de algo. Clave en textos analíticos."
+        "explain": {
+          "es": "Implications = implicaciones, consecuencias posibles de algo. Clave en textos analíticos.",
+          "pt": "Implications = implicações, possíveis consequências de algo. Fundamental em textos analíticos."
+        }
       },
       {
         "type": "Grammar",
+        "difficulty": 3,
         "q": "The merger, had it been approved, _______ the industry significantly.",
         "options": ["would reshape", "would have reshaped", "reshapes", "will reshape"],
         "answer": 1,
-        "explain": "Tercer condicional invertido: 'had it been approved' = 'if it had been approved'. Serie: would have + participio."
+        "explain": {
+          "es": "Tercer condicional invertido: 'had it been approved' = 'if it had been approved'. Serie: would have + participio.",
+          "pt": "Terceiro condicional invertido: 'had it been approved' = 'if it had been approved'. Série: would have + particípio."
+        }
       },
       {
         "type": "Reading",
+        "difficulty": 3,
         "q": "\"Not until the audit was completed did the discrepancies come to light.\" — When were the discrepancies discovered?",
         "options": ["Before the audit", "During the planning stage", "After the audit was completed", "They were never discovered"],
         "answer": 2,
-        "explain": "'Not until X did Y' = Y no pasó hasta que X pasó. Las discrepancias se descubrieron después de completar la auditoría (after)."
+        "explain": {
+          "es": "'Not until X did Y' = Y no pasó hasta que X pasó. Las discrepancias se descubrieron después de completar la auditoría (after).",
+          "pt": "'Not until X did Y' = Y só aconteceu depois que X aconteceu. As discrepâncias foram descobertas depois que a auditoria foi concluída (after)."
+        }
       }
     ]
   }
