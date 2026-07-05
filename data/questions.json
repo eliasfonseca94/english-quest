@@ -1,4 +1,396 @@
 [
   {
     "id": "london",
-    "name": "Londre 
+    "name": "Londres",
+    "flag": "🇬🇧",
+    "level": "Principiante",
+    "desc": "Lo básico: verbos, plurales y vocabulario cotidiano.",
+    "questions": [
+      {
+        "type": "Vocabulary",
+        "q": "What is the opposite of 'big'?",
+        "options": ["Tall", "Small", "Long", "Fast"],
+        "answer": 1,
+        "explain": "Big (grande) ↔ Small (pequeño). Tall es alto, long es largo y fast es rápido."
+      },
+      {
+        "type": "Grammar",
+        "q": "She _______ coffee every morning.",
+        "options": ["drink", "drinks", "drinking", "drank"],
+        "answer": 1,
+        "explain": "Con he/she/it en presente simple, el verbo lleva -s: she drinks, he works, it rains."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "Which word means 'viaje'?",
+        "options": ["Trip", "Trap", "Tape", "Type"],
+        "answer": 0,
+        "explain": "Trip = viaje. Cuidado con los parecidos: trap (trampa), tape (cinta), type (tipo/escribir)."
+      },
+      {
+        "type": "Grammar",
+        "q": "_______ are you from?",
+        "options": ["What", "Who", "Where", "When"],
+        "answer": 2,
+        "explain": "Where = dónde (lugar). What = qué, who = quién, when = cuándo."
+      },
+      {
+        "type": "Grammar",
+        "q": "There _______ two airports in this city.",
+        "options": ["is", "are", "be", "am"],
+        "answer": 1,
+        "explain": "There are + plural (two airports). There is + singular (one airport)."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "You use a _______ to travel to another country.",
+        "options": ["password", "passport", "pastime", "pasture"],
+        "answer": 1,
+        "explain": "Passport = pasaporte. Password es contraseña — ¡no los confundas en el aeropuerto! 😄"
+      },
+      {
+        "type": "Reading",
+        "q": "\"The museum is open from 9 AM to 5 PM, Monday to Saturday.\" — Can you visit on Sunday?",
+        "options": ["Yes, all day", "Yes, only in the morning", "No, it's closed", "Only with a ticket"],
+        "answer": 2,
+        "explain": "Dice 'Monday to Saturday' (lunes a sábado), así que el domingo está cerrado (closed)."
+      },
+      {
+        "type": "Grammar",
+        "q": "I _______ to the gym yesterday.",
+        "options": ["go", "goes", "went", "going"],
+        "answer": 2,
+        "explain": "'Yesterday' indica pasado → went (pasado irregular de go)."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "What is the opposite of 'hot'?",
+        "options": ["Cold", "Warm", "Wet", "Fast"],
+        "answer": 0,
+        "explain": "Hot (caliente) ↔ Cold (frío). Warm es tibio, wet es mojado."
+      },
+      {
+        "type": "Grammar",
+        "q": "What's the plural of 'child'?",
+        "options": ["Childs", "Childes", "Children", "Childrens"],
+        "answer": 2,
+        "explain": "Child es irregular: su plural es children, no lleva -s como los sustantivos regulares."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "Which word means 'equipaje'?",
+        "options": ["Luggage", "Language", "Lounge", "Ledge"],
+        "answer": 0,
+        "explain": "Luggage = equipaje. Language es idioma, lounge es sala de espera."
+      },
+      {
+        "type": "Grammar",
+        "q": "They _______ from Spain.",
+        "options": ["is", "am", "are", "be"],
+        "answer": 2,
+        "explain": "They (plural) + are. He/she/it usa is, I usa am."
+      },
+      {
+        "type": "Grammar",
+        "q": "I usually _______ breakfast at 7 AM.",
+        "options": ["have", "has", "having", "had"],
+        "answer": 0,
+        "explain": "Con I/you/we/they en presente simple se usa la forma base del verbo: have."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Flight AA202 to London has been delayed by two hours.\" — What happened to the flight?",
+        "options": ["It was cancelled", "It left early", "It is late", "It landed"],
+        "answer": 2,
+        "explain": "Delayed = retrasado. El vuelo saldrá más tarde de lo previsto, no fue cancelado."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "What do you call the document you show before boarding a plane?",
+        "options": ["Ticket", "Boarding pass", "Receipt", "Map"],
+        "answer": 1,
+        "explain": "Boarding pass = pase de abordar. Ticket es más general (boleto)."
+      },
+      {
+        "type": "Grammar",
+        "q": "How _______ apples do you want?",
+        "options": ["much", "many", "few", "little"],
+        "answer": 1,
+        "explain": "Many se usa con sustantivos contables en plural (apples). Much es para incontables."
+      }
+    ]
+  },
+
+  {
+    "id": "newyork",
+    "name": "Nueva York",
+    "flag": "🇺🇸",
+    "level": "Intermedio",
+    "desc": "Tiempos verbales, phrasal verbs y comprensión.",
+    "questions": [
+      {
+        "type": "Grammar",
+        "q": "I have lived here _______ 2020.",
+        "options": ["for", "since", "during", "from"],
+        "answer": 1,
+        "explain": "Since + punto en el tiempo (since 2020). For + duración (for six years)."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "The company decided to 'put off' the meeting. What does 'put off' mean?",
+        "options": ["Cancel", "Postpone", "Start", "Shorten"],
+        "answer": 1,
+        "explain": "Put off = postpone (posponer). Es uno de los phrasal verbs más comunes en el trabajo."
+      },
+      {
+        "type": "Grammar",
+        "q": "If it rains tomorrow, we _______ at home.",
+        "options": ["stayed", "will stay", "would stay", "stay"],
+        "answer": 1,
+        "explain": "Primer condicional: If + presente simple, will + verbo base. Situación real y futura."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Despite the heavy traffic, Maria arrived on time.\" — What does this tell us?",
+        "options": [
+          "Maria was late because of traffic",
+          "There was no traffic",
+          "Maria was punctual even with traffic",
+          "Maria avoided the traffic"
+        ],
+        "answer": 2,
+        "explain": "Despite = a pesar de. Hubo tráfico pesado PERO llegó a tiempo (on time = puntual)."
+      },
+      {
+        "type": "Grammar",
+        "q": "She's the person _______ helped me find a job.",
+        "options": ["which", "who", "whose", "where"],
+        "answer": 1,
+        "explain": "Who se usa para personas. Which para cosas, whose para posesión, where para lugares."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "Which word means 'to improve a skill through repeated exercise'?",
+        "options": ["To waste", "To practice", "To forget", "To describe"],
+        "answer": 1,
+        "explain": "To practice = practicar. Exactly what you're doing right now 💪"
+      },
+      {
+        "type": "Grammar",
+        "q": "You _______ smoke inside the airport. It's forbidden.",
+        "options": ["must", "mustn't", "don't have to", "should"],
+        "answer": 1,
+        "explain": "Mustn't = prohibición (no debes). 'Don't have to' significa que no es necesario, ¡es distinto!"
+      },
+      {
+        "type": "Reading",
+        "q": "\"The flight was delayed due to bad weather.\" — Why was the flight late?",
+        "options": ["Mechanical problems", "The weather", "Too many passengers", "A strike"],
+        "answer": 1,
+        "explain": "Due to = debido a. Bad weather = mal tiempo. 'Delayed' significa retrasado."
+      },
+      {
+        "type": "Grammar",
+        "q": "I _______ never been to Australia before.",
+        "options": ["have", "has", "had", "having"],
+        "answer": 0,
+        "explain": "Present perfect con I/you/we/they: have + participio (been)."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "The meeting was 'called off' at the last minute. What does 'called off' mean?",
+        "options": ["Postponed", "Cancelled", "Started early", "Extended"],
+        "answer": 1,
+        "explain": "Call off = cancel (cancelar). Distinto de 'put off' (postpone/posponer)."
+      },
+      {
+        "type": "Grammar",
+        "q": "If I _______ more time, I would travel more often.",
+        "options": ["have", "had", "will have", "having"],
+        "answer": 1,
+        "explain": "Segundo condicional: If + pasado simple (had), would + verbo base. Situación hipotética presente."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Although it was raining, the flight departed on schedule.\" — What does this tell us?",
+        "options": [
+          "The flight was delayed by rain",
+          "The flight left on time despite the rain",
+          "There was no rain",
+          "The flight was cancelled"
+        ],
+        "answer": 1,
+        "explain": "Although = aunque. A pesar de la lluvia, el vuelo salió a tiempo (on schedule)."
+      },
+      {
+        "type": "Grammar",
+        "q": "This is the hotel _______ we stayed last summer.",
+        "options": ["who", "which", "where", "whose"],
+        "answer": 2,
+        "explain": "Where se usa para lugares (the hotel where...). Who es personas, whose es posesión."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "Which word means 'to reserve something in advance'?",
+        "options": ["To cancel", "To book", "To lose", "To board"],
+        "answer": 1,
+        "explain": "To book = reservar. Ejemplo: 'I booked a hotel room online.'"
+      },
+      {
+        "type": "Grammar",
+        "q": "You _______ arrive early; the gates open at 6 AM sharp.",
+        "options": ["should", "shouldn't", "mustn't", "don't have to"],
+        "answer": 0,
+        "explain": "Should = recomendación (deberías). Aquí se sugiere llegar temprano porque las puertas abren a las 6 AM."
+      },
+      {
+        "type": "Reading",
+        "q": "\"The airline offered a refund because the flight was cancelled.\" — Why did passengers get their money back?",
+        "options": ["The flight was late", "The flight was cancelled", "The flight was overbooked", "The plane changed gates"],
+        "answer": 1,
+        "explain": "Refund = reembolso. Se dio porque el vuelo fue cancelado (cancelled), no solo retrasado."
+      }
+    ]
+  },
+
+  {
+    "id": "sydney",
+    "name": "Sídney",
+    "flag": "🇦🇺",
+    "level": "Avanzado",
+    "desc": "Condicionales, voz pasiva y vocabulario profesional.",
+    "questions": [
+      {
+        "type": "Grammar",
+        "q": "If the company _______ usage limits earlier, it wouldn't have burned its budget.",
+        "options": ["would set", "had set", "has set", "set"],
+        "answer": 1,
+        "explain": "Tercer condicional: If + past perfect (had set), would have + participio. Situación hipotética del pasado. ¿Te suena? 😉"
+      },
+      {
+        "type": "Vocabulary",
+        "q": "The 'rationale' behind a decision is closest in meaning to:",
+        "options": ["The emotional reaction", "The underlying reason", "The financial cost", "The announcement"],
+        "answer": 1,
+        "explain": "Rationale = la razón o justificación de fondo. Palabra muy frecuente en textos académicos e IELTS."
+      },
+      {
+        "type": "Grammar",
+        "q": "Access to the new model _______ by the government until the framework is finalized.",
+        "options": ["is restricting", "restricts", "is being restricted", "has restricted"],
+        "answer": 2,
+        "explain": "Voz pasiva en presente continuo: is/are + being + participio. Común en textos técnicos y de noticias."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "ETFs posted $4.5 billion in net 'outflows'. What are outflows?",
+        "options": ["Profits generated", "Money being withdrawn", "New investors joining", "Fees charged"],
+        "answer": 1,
+        "explain": "Outflows = dinero saliendo (retiros). Lo contrario es inflows (dinero entrando). Vocabulario clave de mercados."
+      },
+      {
+        "type": "Reading",
+        "q": "\"The statement was rare, which underscores the severity of the threat.\" — 'Underscores' means:",
+        "options": ["Contradicts", "Emphasizes", "Hides", "Questions"],
+        "answer": 1,
+        "explain": "Underscore = subrayar, enfatizar. Sinónimos útiles: highlight, emphasize, stress."
+      },
+      {
+        "type": "Grammar",
+        "q": "By the time we land, the crew _______ three meals.",
+        "options": ["will serve", "will have served", "has served", "is serving"],
+        "answer": 1,
+        "explain": "Future perfect: will have + participio. Acción que estará completada antes de un momento futuro."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "A 'liability' in a financial context is:",
+        "options": ["An asset that grows", "A legal or financial obligation", "A type of insurance", "A profit margin"],
+        "answer": 1,
+        "explain": "Liability = pasivo, obligación o responsabilidad financiera/legal. Opuesto a asset (activo)."
+      },
+      {
+        "type": "Grammar",
+        "q": "Not only _______ the exam, but she also got the highest score.",
+        "options": ["she passed", "did she pass", "she did pass", "passed she"],
+        "answer": 1,
+        "explain": "Inversión con 'Not only': Not only + auxiliar + sujeto + verbo. Estructura avanzada que suma puntos en IELTS writing."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Had the ETF inflows stabilized, analysts would have revised their targets upward.\" — What actually happened?",
+        "options": [
+          "Inflows stabilized and targets went up",
+          "Inflows did not stabilize",
+          "Analysts revised targets upward",
+          "The ETFs closed"
+        ],
+        "answer": 1,
+        "explain": "Tercer condicional invertido (Had X happened = If X had happened). Describe algo que NO ocurrió: los flujos no se estabilizaron."
+      },
+      {
+        "type": "Grammar",
+        "q": "Were it not for the strict visa rules, more tourists _______ this country.",
+        "options": ["would visit", "will visit", "visited", "have visited"],
+        "answer": 0,
+        "explain": "'Were it not for' = 'If it were not for' (si no fuera por). Inversión del segundo condicional: would + verbo base."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "A 'subsidiary' company is best described as:",
+        "options": ["An independent competitor", "A company controlled by another (parent) company", "A government agency", "A type of currency"],
+        "answer": 1,
+        "explain": "Subsidiary = filial, empresa controlada por una matriz (parent company). Vocabulario común en negocios."
+      },
+      {
+        "type": "Grammar",
+        "q": "The proposal, _______ was rejected twice, will be presented again next month.",
+        "options": ["that", "which", "who", "whose"],
+        "answer": 1,
+        "explain": "Which introduce una cláusula no restrictiva sobre cosas (the proposal). 'That' no se usa después de coma en este tipo de cláusula."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "To 'mitigate' a risk means to:",
+        "options": ["Increase it", "Reduce its severity", "Ignore it", "Transfer it to someone else"],
+        "answer": 1,
+        "explain": "Mitigate = mitigar, reducir el impacto o severidad de algo. Muy común en informes de riesgo."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Were it not for the analysts' warnings, the fund would have doubled its exposure.\" — What actually happened?",
+        "options": ["The fund doubled its exposure", "The fund did not double its exposure", "The analysts were ignored", "The fund closed"],
+        "answer": 1,
+        "explain": "La estructura hipotética indica que, gracias a las advertencias, el fondo NO duplicó su exposición."
+      },
+      {
+        "type": "Grammar",
+        "q": "Scarcely _______ the announcement been made when share prices dropped.",
+        "options": ["had", "did", "has", "was"],
+        "answer": 0,
+        "explain": "Inversión con 'scarcely... when': Scarcely + had + sujeto + participio. Estructura formal avanzada."
+      },
+      {
+        "type": "Vocabulary",
+        "q": "The report's 'implications' are best understood as its:",
+        "options": ["Introduction", "Possible consequences", "Authors", "Formatting"],
+        "answer": 1,
+        "explain": "Implications = implicaciones, consecuencias posibles de algo. Clave en textos analíticos."
+      },
+      {
+        "type": "Grammar",
+        "q": "The merger, had it been approved, _______ the industry significantly.",
+        "options": ["would reshape", "would have reshaped", "reshapes", "will reshape"],
+        "answer": 1,
+        "explain": "Tercer condicional invertido: 'had it been approved' = 'if it had been approved'. Serie: would have + participio."
+      },
+      {
+        "type": "Reading",
+        "q": "\"Not until the audit was completed did the discrepancies come to light.\" — When were the discrepancies discovered?",
+        "options": ["Before the audit", "During the planning stage", "After the audit was completed", "They were never discovered"],
+        "answer": 2,
+        "explain": "'Not until X did Y' = Y no pasó hasta que X pasó. Las discrepancias se descubrieron después de completar la auditoría (after)."
+      }
+    ]
+  }
+]
