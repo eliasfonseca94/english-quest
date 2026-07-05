@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Quest — Tu viaje al inglés</title>
+  <meta name="description" content="Aprende inglés jugando: viaja por destinos, gana XP y colecciona sellos en tu pasaporte." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ PANTALLA DE INICIO ============ -->
+  <section id="screen-home" class="screen active">
+    <div class="sky">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+      <div class="plane">✈️</div>
+    </div>
+
+    <header class="home-header">
+      <p class="eyebrow">BOARDING PASS · TARJETA DE EMBARQUE</p>
+      <h1>English<span class="accent">Quest</span></h1>
+      <p class="tagline">Cada pregunta te acerca a un nuevo destino.<br/>Gana XP, mantén tu racha y llena tu pasaporte de sellos.</p>
+    </header>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <span class="stat-num" id="home-xp">0</span>
+        <span class="stat-label">XP total</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="home-stamps">0</span>
+        <span class="stat-label">Sellos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="home-best-streak">0</span>
+        <span class="stat-label">Mejor racha</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">Elige tu destino</h2>
+
+    <div id="destinations" class="destinations">
+      <!-- Las tarjetas de destino se generan con JavaScript -->
+    </div>
+
+    <button id="btn-passport" class="btn-ghost">📖 Ver mi pasaporte</button>
+    <button id="btn-reset" class="btn-reset">Reiniciar progreso</button>
+  </section>
+
+  <!-- ============ PANTALLA DE JUEGO ============ -->
+  <section id="screen-game" class="screen">
+    <div class="game-top">
+      <button id="btn-quit" class="btn-quit" aria-label="Salir">✕</button>
+      <div class="progress-track">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div class="streak-badge" id="streak-badge">🔥 <span id="streak-num">0</span></div>
+    </div>
+
+    <div class="game-meta">
+      <span id="game-destination" class="game-destination"></span>
+      <span id="game-counter" class="game-counter"></span>
+    </div>
+
+    <div class="question-card" id="question-card">
+      <p class="question-type" id="question-type"></p>
+      <h2 class="question-text" id="question-text"></h2>
+      <div class="options" id="options"></div>
+    </div>
+
+    <div class="feedback hidden" id="feedback">
+      <p class="feedback-title" id="feedback-title"></p>
+      <p class="feedback-explanation" id="feedback-explanation"></p>
+      <button id="btn-next" class="btn-primary">Siguiente →</button>
+    </div>
+  </section>
+
+  <!-- ============ PANTALLA DE RESULTADOS ============ -->
+  <section id="screen-results" class="screen">
+    <div class="results-card">
+      <div class="stamp-reveal" id="stamp-reveal"></div>
+      <h2 id="results-title"></h2>
+      <p id="results-sub"></p>
+      <div class="results-stats">
+        <div class="rstat"><span id="results-correct">0</span><small>Correctas</small></div>
+        <div class="rstat"><span id="results-xp">0</span><small>XP ganados</small></div>
+        <div class="rstat"><span id="results-streak">0</span><small>Racha máx.</small></div>
+      </div>
+      <button id="btn-retry" class="btn-ghost">↻ Repetir destino</button>
+      <button id="btn-home" class="btn-primary">Volver al mapa</button>
+    </div>
+  </section>
+
+  <!-- ============ PANTALLA PASAPORTE ============ -->
+  <section id="screen-passport" class="screen">
+    <div class="passport">
+      <div class="passport-header">
+        <span>PASSPORT · PASAPORTE</span>
+        <h2>English Quest</h2>
+      </div>
+      <div class="passport-grid" id="passport-grid"></div>
+      <button id="btn-passport-back" class="btn-primary">← Volver</button>
+    </div>
+  </section>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
