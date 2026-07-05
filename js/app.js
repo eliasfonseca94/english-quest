@@ -107,6 +107,18 @@ const t = (key, ...args) => {
 // Resuelve un campo bilingüe { es, pt } del banco de preguntas al idioma activo.
 const pick = (field) => (field ? field[LANG] ?? field.es : "");
 
+// ---------- Idioma a estudiar ----------
+// Independiente del idioma de la interfaz: define qué destinos se muestran
+// (cada destino pertenece a un track: el idioma que sus preguntas ponen a prueba).
+const STUDY_KEY = "englishQuestStudy";
+let STUDY = localStorage.getItem(STUDY_KEY) || "en";
+
+const STUDY_TRACKS = [
+  { id: "en", flag: "🇬🇧", label: { es: "Inglés", pt: "Inglês" } },
+  { id: "es", flag: "🇪🇸", label: { es: "Español", pt: "Espanhol" } },
+  { id: "pt", flag: "🇧🇷", label: { es: "Portugués", pt: "Português" } },
+];
+
 // ---------- Estado guardado (localStorage) ----------
 const STORAGE_KEY = "englishQuestSave";
 
@@ -208,16 +220,36 @@ $("lang-pt").addEventListener("click", () => selectLanguage("pt"));
 $("btn-welcome-continue").addEventListener("click", () => { renderHome(); showScreen("home"); });
 $("btn-change-lang").addEventListener("click", () => { renderWelcomeSelection(); showScreen("welcome"); });
 
+// ---------- Selector de idioma a estudiar ----------
+function renderStudyTabs() {
+  const box = $("study-tabs");
+  box.innerHTML = "";
+
+  STUDY_TRACKS.forEach((track) => {
+    const btn = document.createElement("button");
+    btn.className = "study-tab" + (track.id === STUDY ? " selected" : "");
+    btn.innerHTML = `<span class="study-flag">${track.flag}</span> ${pick(track.label)}`;
+    btn.addEventListener("click", () => {
+      STUDY = track.id;
+      localStorage.setItem(STUDY_KEY, STUDY);
+      renderHome();
+    });
+    box.appendChild(btn);
+  });
+}
+
 // ---------- Pantalla de inicio ----------
 function renderHome() {
   $("home-xp").textContent = save.xp;
   $("home-stamps").textContent = save.stamps.length;
   $("home-best-streak").textContent = save.bestStreak;
 
+  renderStudyTabs();
+
   const container = $("destinations");
   container.innerHTML = "";
 
-  DESTINATIONS.forEach((dest) => {
+  DESTINATIONS.filter((dest) => dest.track === STUDY).forEach((dest) => {
     const earned = save.stamps.includes(dest.id);
     const card = document.createElement("button");
     card.className = "dest-card";

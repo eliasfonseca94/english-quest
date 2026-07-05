@@ -1,6 +1,7 @@
 [
   {
     "id": "london",
+    "track": "en",
     "flag": "🇬🇧",
     "name": { "es": "Londres", "pt": "Londres" },
     "level": { "es": "Principiante", "pt": "Iniciante" },
@@ -190,6 +191,7 @@
 
   {
     "id": "newyork",
+    "track": "en",
     "flag": "🇺🇸",
     "name": { "es": "Nueva York", "pt": "Nova York" },
     "level": { "es": "Intermedio", "pt": "Intermediário" },
@@ -389,6 +391,7 @@
 
   {
     "id": "sydney",
+    "track": "en",
     "flag": "🇦🇺",
     "name": { "es": "Sídney", "pt": "Sydney" },
     "level": { "es": "Avanzado", "pt": "Avançado" },
@@ -598,6 +601,628 @@
         "explain": {
           "es": "'Not until X did Y' = Y no pasó hasta que X pasó. Las discrepancias se descubrieron después de completar la auditoría (after).",
           "pt": "'Not until X did Y' = Y só aconteceu depois que X aconteceu. As discrepâncias foram descobertas depois que a auditoria foi concluída (after)."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "madrid",
+    "track": "es",
+    "flag": "🇪🇸",
+    "name": { "es": "Madrid", "pt": "Madrid" },
+    "level": { "es": "Principiante", "pt": "Iniciante" },
+    "desc": {
+      "es": "Lo básico del español: verbos, plurales y vocabulario cotidiano.",
+      "pt": "O básico do espanhol: verbos, plurais e vocabulário do dia a dia."
+    },
+    "questions": [
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "¿Cuál es el opuesto de 'grande'?",
+        "options": ["Alto", "Pequeño", "Largo", "Rápido"],
+        "answer": 1,
+        "explain": {
+          "es": "Grande ↔ Pequeño. Alto es 'tall', largo es 'long' y rápido es 'fast'.",
+          "pt": "Grande ↔ Pequeno. Alto é 'tall', largo é 'long' e rápido é 'fast'."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Ella _______ café todas las mañanas.",
+        "options": ["beber", "bebe", "bebiendo", "bebió"],
+        "answer": 1,
+        "explain": {
+          "es": "Con él/ella en presente, el verbo se conjuga: bebe, come, vive.",
+          "pt": "Com ele/ela no presente, o verbo se conjuga: bebe, come, vive."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "¿Qué palabra significa 'trip' en español?",
+        "options": ["Viaje", "Trampa", "Cinta", "Tipo"],
+        "answer": 0,
+        "explain": {
+          "es": "Viaje = trip. Trampa (trap), cinta (tape) y tipo (type) se parecen pero son distintas.",
+          "pt": "Viaje = trip (viagem). Trampa (armadilha), cinta (fita) e tipo (type) parecem mas são diferentes."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "¿_______ vives?",
+        "options": ["Qué", "Quién", "Dónde", "Cuándo"],
+        "answer": 2,
+        "explain": {
+          "es": "Dónde = where (lugar). Qué = what, quién = who, cuándo = when.",
+          "pt": "Dónde = where (onde/lugar). Qué = what, quién = who, cuándo = when."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "_______ dos aeropuertos en esta ciudad.",
+        "options": ["Hay", "Es", "Son", "Está"],
+        "answer": 0,
+        "explain": {
+          "es": "'Hay' se usa para expresar existencia, singular o plural: hay un aeropuerto / hay dos aeropuertos.",
+          "pt": "'Hay' expressa existência, singular ou plural — equivalente a 'there is/are' em inglês."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "Usas un _______ para viajar a otro país.",
+        "options": ["contraseña", "pasaporte", "pasatiempo", "pastura"],
+        "answer": 1,
+        "explain": {
+          "es": "Pasaporte = passport. Contraseña es password — ¡no los confundas!",
+          "pt": "Pasaporte = passport (passaporte). Contraseña é password (senha) — não confunda!"
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 2,
+        "q": "\"El museo abre de 9 a 17 h, de lunes a sábado.\" — ¿Puedes visitarlo el domingo?",
+        "options": ["Sí, todo el día", "Sí, solo en la mañana", "No, está cerrado", "Solo con entrada"],
+        "answer": 2,
+        "explain": {
+          "es": "Dice 'de lunes a sábado', así que el domingo está cerrado.",
+          "pt": "Diz 'de lunes a sábado' (de segunda a sábado), então no domingo está fechado (cerrado)."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "Ayer _______ al gimnasio.",
+        "options": ["voy", "va", "fui", "yendo"],
+        "answer": 2,
+        "explain": {
+          "es": "'Ayer' indica pasado → fui (pretérito de ir).",
+          "pt": "'Ayer' (ontem) indica passado → fui (pretérito de ir, equivalente a 'went')."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "cdmx",
+    "track": "es",
+    "flag": "🇲🇽",
+    "name": { "es": "Ciudad de México", "pt": "Cidade do México" },
+    "level": { "es": "Intermedio", "pt": "Intermediário" },
+    "desc": {
+      "es": "Tiempos verbales, verbos con preposición y comprensión de lectura.",
+      "pt": "Tempos verbais, verbos com preposição e compreensão de leitura."
+    },
+    "questions": [
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Vivo aquí _______ 2020.",
+        "options": ["por", "desde", "durante", "de"],
+        "answer": 1,
+        "explain": {
+          "es": "'Desde' + punto en el tiempo (desde 2020). 'Por' + duración (por seis años).",
+          "pt": "'Desde' + ponto no tempo (desde 2020). 'Por' + duração (por seis años, equivalente a 'for')."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "La reunión se 'aplazó' a último momento. ¿Qué significa 'aplazar'?",
+        "options": ["Cancelar", "Posponer", "Empezar", "Acortar"],
+        "answer": 1,
+        "explain": {
+          "es": "Aplazar = posponer (postpone). No es lo mismo que cancelar.",
+          "pt": "Aplazar = posponer (adiar/postpone). Não é o mesmo que cancelar."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "Si mañana llueve, nosotros _______ en casa.",
+        "options": ["quedábamos", "nos quedaremos", "nos quedaríamos", "nos quedamos"],
+        "answer": 1,
+        "explain": {
+          "es": "Primera condicional: Si + presente, futuro simple. Situación real y futura.",
+          "pt": "Primeiro condicional: Si + presente, futuro simples. Situação real e futura (equivalente ao 'if + will')."
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 3,
+        "q": "\"A pesar del tráfico pesado, María llegó a tiempo.\" — ¿Qué nos dice esto?",
+        "options": [
+          "María llegó tarde por el tráfico",
+          "No había tráfico",
+          "María fue puntual a pesar del tráfico",
+          "María evitó el tráfico"
+        ],
+        "answer": 2,
+        "explain": {
+          "es": "A pesar de = despite. Hubo tráfico PERO llegó a tiempo (puntual).",
+          "pt": "A pesar de = despite (apesar de). Houve trânsito, MAS ela chegou na hora (pontual)."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Ella es la persona _______ me ayudó a conseguir trabajo.",
+        "options": ["que", "quien", "cuyo", "donde"],
+        "answer": 0,
+        "explain": {
+          "es": "'Que' es el pronombre relativo más común para personas y cosas en español.",
+          "pt": "'Que' é o pronome relativo mais comum para pessoas e coisas em espanhol."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "¿Qué palabra significa 'to practice'?",
+        "options": ["Desperdiciar", "Practicar", "Olvidar", "Describir"],
+        "answer": 1,
+        "explain": {
+          "es": "Practicar = to practice. Exactamente lo que estás haciendo ahora 💪",
+          "pt": "Practicar = to practice (praticar). Exatamente o que você está fazendo agora 💪"
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "_______ fumar dentro del aeropuerto. Está prohibido.",
+        "options": ["Debes", "No debes", "No tienes que", "Deberías"],
+        "answer": 1,
+        "explain": {
+          "es": "'No debes' expresa prohibición. 'No tienes que' significa que no es necesario — ¡es distinto!",
+          "pt": "'No debes' expressa proibição. 'No tienes que' significa que não é necessário — é diferente!"
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 3,
+        "q": "\"El vuelo se retrasó debido al mal tiempo.\" — ¿Por qué se retrasó el vuelo?",
+        "options": ["Problemas mecánicos", "El clima", "Demasiados pasajeros", "Una huelga"],
+        "answer": 1,
+        "explain": {
+          "es": "Debido a = due to. Mal tiempo = bad weather. 'Retrasado' significa delayed.",
+          "pt": "Debido a = due to (devido a). Mal tiempo = bad weather (mau tempo). 'Retrasado' significa delayed (atrasado)."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "buenosaires",
+    "track": "es",
+    "flag": "🇦🇷",
+    "name": { "es": "Buenos Aires", "pt": "Buenos Aires" },
+    "level": { "es": "Avanzado", "pt": "Avançado" },
+    "desc": {
+      "es": "Condicionales, voz pasiva y vocabulario profesional.",
+      "pt": "Condicionais, voz passiva e vocabulário profissional."
+    },
+    "questions": [
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "Si la empresa _______ límites de uso antes, no habría gastado su presupuesto.",
+        "options": ["pondría", "hubiera puesto", "ha puesto", "pone"],
+        "answer": 1,
+        "explain": {
+          "es": "Tercera condicional: Si + pluscuamperfecto del subjuntivo (hubiera puesto), habría + participio. Situación hipotética del pasado.",
+          "pt": "Terceiro condicional: Si + pluscuamperfecto do subjuntivo (hubiera puesto), habría + particípio. Situação hipotética do passado."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "El 'fundamento' de una decisión es más cercano a:",
+        "options": ["La reacción emocional", "La razón subyacente", "El costo financiero", "El anuncio"],
+        "answer": 1,
+        "explain": {
+          "es": "Fundamento = rationale, la razón de fondo. Palabra frecuente en textos académicos.",
+          "pt": "Fundamento = rationale, a razão de base. Palavra comum em textos acadêmicos."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "El acceso al nuevo modelo _______ por el gobierno hasta que se finalice el marco.",
+        "options": ["restringe", "está siendo restringido", "ha restringido", "restringía"],
+        "answer": 1,
+        "explain": {
+          "es": "Voz pasiva en presente continuo: estar + siendo + participio. Común en textos técnicos.",
+          "pt": "Voz passiva no presente contínuo: estar + siendo + particípio. Comum em textos técnicos."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "Los ETF registraron 'salidas' netas de 4.500 millones. ¿Qué son las salidas?",
+        "options": ["Ganancias generadas", "Dinero siendo retirado", "Nuevos inversores", "Comisiones cobradas"],
+        "answer": 1,
+        "explain": {
+          "es": "Salidas = outflows, dinero que sale (retiros). Lo opuesto son las entradas (inflows).",
+          "pt": "Salidas = outflows, dinheiro que sai (retiradas). O oposto são as entradas (inflows)."
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 2,
+        "q": "\"La declaración fue poco común, lo que subraya la gravedad de la amenaza.\" — 'Subraya' significa:",
+        "options": ["Contradice", "Enfatiza", "Oculta", "Cuestiona"],
+        "answer": 1,
+        "explain": {
+          "es": "Subrayar = to underscore/emphasize. Sinónimos: destacar, enfatizar.",
+          "pt": "Subrayar = to underscore/emphasize (sublinhar). Sinônimos: destacar, enfatizar."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "Para cuando aterricemos, la tripulación _______ tres comidas.",
+        "options": ["servirá", "habrá servido", "ha servido", "está sirviendo"],
+        "answer": 1,
+        "explain": {
+          "es": "Futuro perfecto: habrá + participio. Acción que estará completada antes de un momento futuro.",
+          "pt": "Futuro perfeito (equivalente a 'future perfect'): habrá + particípio. Ação que estará concluída antes de um momento futuro."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "Un 'pasivo' en un contexto financiero es:",
+        "options": ["Un activo que crece", "Una obligación legal o financiera", "Un tipo de seguro", "Un margen de ganancia"],
+        "answer": 1,
+        "explain": {
+          "es": "Pasivo = liability, obligación financiera o legal. Opuesto de activo (asset).",
+          "pt": "Pasivo = liability, obrigação financeira ou legal. Oposto de activo (asset)."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "No solo _______ el examen, sino que además obtuvo la nota más alta.",
+        "options": ["aprobó", "aprobó ella", "ella aprobó", "hubo aprobado"],
+        "answer": 0,
+        "explain": {
+          "es": "En español, 'no solo... sino que' no requiere inversión de sujeto y verbo como en inglés: No solo aprobó el examen, sino que...",
+          "pt": "Em espanhol, 'no solo... sino que' não exige inversão de sujeito e verbo como em inglês: No solo aprobó el examen, sino que..."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "lisboa",
+    "track": "pt",
+    "flag": "🇵🇹",
+    "name": { "es": "Lisboa", "pt": "Lisboa" },
+    "level": { "es": "Principiante", "pt": "Iniciante" },
+    "desc": {
+      "es": "Lo básico del portugués: verbos, plurales y vocabulario cotidiano.",
+      "pt": "O básico do português: verbos, plurais e vocabulário do dia a dia."
+    },
+    "questions": [
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "Qual é o oposto de 'grande'?",
+        "options": ["Alto", "Pequeno", "Longo", "Rápido"],
+        "answer": 1,
+        "explain": {
+          "pt": "Grande ↔ Pequeno. Alto é 'tall', longo é 'long' e rápido é 'fast'.",
+          "es": "Grande ↔ Pequeno (pequeño). Alto es 'tall', longo es 'long' y rápido es 'fast'."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Ela _______ café todas as manhãs.",
+        "options": ["beber", "bebe", "bebendo", "bebeu"],
+        "answer": 1,
+        "explain": {
+          "pt": "Com ele/ela no presente, o verbo se conjuga: bebe, come, vive.",
+          "es": "Con él/ella en presente, el verbo se conjuga: bebe, come, vive (igual que en español)."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "Qual palavra significa 'trip'?",
+        "options": ["Viagem", "Armadilha", "Fita", "Tipo"],
+        "answer": 0,
+        "explain": {
+          "pt": "Viagem = trip. Armadilha (trap), fita (tape) e tipo (type) parecem mas são diferentes.",
+          "es": "Viagem = trip (viaje). Armadilha (trampa), fita (cinta) y tipo (type) se parecen pero son distintas."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "_______ você mora?",
+        "options": ["O que", "Quem", "Onde", "Quando"],
+        "answer": 2,
+        "explain": {
+          "pt": "Onde = where (lugar). O que = what, quem = who, quando = when.",
+          "es": "Onde = where (dónde). O que = what, quem = who, quando = when."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "_______ dois aeroportos nesta cidade.",
+        "options": ["Há", "É", "São", "Está"],
+        "answer": 0,
+        "explain": {
+          "pt": "'Há' expressa existência, singular ou plural: há um aeroporto / há dois aeroportos.",
+          "es": "'Há' expresa existencia, singular o plural — equivalente a 'hay' en español."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "Você usa um _______ para viajar a outro país.",
+        "options": ["senha", "passaporte", "passatempo", "pastagem"],
+        "answer": 1,
+        "explain": {
+          "pt": "Passaporte = passport. Senha é password — não confunda!",
+          "es": "Passaporte = passport (pasaporte). Senha es password (contraseña) — ¡no los confundas!"
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 2,
+        "q": "\"O museu abre das 9h às 17h, de segunda a sábado.\" — Pode visitar no domingo?",
+        "options": ["Sim, o dia todo", "Sim, só de manhã", "Não, está fechado", "Só com ingresso"],
+        "answer": 2,
+        "explain": {
+          "pt": "Diz 'de segunda a sábado', então no domingo está fechado.",
+          "es": "Dice 'de segunda a sábado' (de lunes a sábado), así que el domingo está cerrado."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "Ontem eu _______ à academia.",
+        "options": ["vou", "vai", "fui", "indo"],
+        "answer": 2,
+        "explain": {
+          "pt": "'Ontem' indica passado → fui (pretérito de ir).",
+          "es": "'Ontem' (ayer) indica pasado → fui (pretérito de ir, equivalente a 'went')."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "rio",
+    "track": "pt",
+    "flag": "🇧🇷",
+    "name": { "es": "Río de Janeiro", "pt": "Rio de Janeiro" },
+    "level": { "es": "Intermedio", "pt": "Intermediário" },
+    "desc": {
+      "es": "Tiempos verbales, verbos con preposición y comprensión de lectura.",
+      "pt": "Tempos verbais, verbos com preposição e compreensão de leitura."
+    },
+    "questions": [
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Moro aqui _______ 2020.",
+        "options": ["por", "desde", "durante", "de"],
+        "answer": 1,
+        "explain": {
+          "pt": "'Desde' + ponto no tempo (desde 2020). 'Por' + duração (por seis anos).",
+          "es": "'Desde' + punto en el tiempo (desde 2020). 'Por' + duración (por seis años)."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "A reunião foi 'adiada' de última hora. O que significa 'adiar'?",
+        "options": ["Cancelar", "Postergar", "Começar", "Encurtar"],
+        "answer": 1,
+        "explain": {
+          "pt": "Adiar = postergar/posponer (postpone). Não é o mesmo que cancelar.",
+          "es": "Adiar = postergar (postpone). No es lo mismo que cancelar."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "Se amanhã chover, nós _______ em casa.",
+        "options": ["ficávamos", "vamos ficar", "ficaríamos", "ficamos"],
+        "answer": 1,
+        "explain": {
+          "pt": "Primeiro condicional: Se + presente, futuro (ir + infinitivo). Situação real e futura.",
+          "es": "Primera condicional: Si + presente, futuro. Situación real y futura (equivalente al 'if + will' en inglés)."
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 3,
+        "q": "\"Apesar do trânsito pesado, Maria chegou na hora.\" — O que isso nos diz?",
+        "options": [
+          "Maria se atrasou por causa do trânsito",
+          "Não havia trânsito",
+          "Maria foi pontual apesar do trânsito",
+          "Maria evitou o trânsito"
+        ],
+        "answer": 2,
+        "explain": {
+          "pt": "Apesar de = despite. Houve trânsito pesado, MAS ela chegou na hora (pontual).",
+          "es": "Apesar de = despite (a pesar de). Hubo tráfico pesado, PERO llegó a tiempo (puntual)."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 1,
+        "q": "Ela é a pessoa _______ me ajudou a conseguir um emprego.",
+        "options": ["que", "quem", "cujo", "onde"],
+        "answer": 0,
+        "explain": {
+          "pt": "'Que' é o pronome relativo mais comum para pessoas e coisas em português.",
+          "es": "'Que' es el pronombre relativo más común para personas y cosas, igual que en español."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 1,
+        "q": "Qual palavra significa 'to practice'?",
+        "options": ["Desperdiçar", "Praticar", "Esquecer", "Descrever"],
+        "answer": 1,
+        "explain": {
+          "pt": "Praticar = to practice. Exatamente o que você está fazendo agora 💪",
+          "es": "Praticar = to practice (practicar). Exactamente lo que estás haciendo ahora 💪"
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 2,
+        "q": "Você _______ fumar dentro do aeroporto. É proibido.",
+        "options": ["deve", "não deve", "não precisa", "deveria"],
+        "answer": 1,
+        "explain": {
+          "pt": "'Não deve' expressa proibição. 'Não precisa' significa que não é necessário — é diferente!",
+          "es": "'No debe' expresa prohibición. 'No precisa' (no necesita) significa que no es necesario — ¡es distinto!"
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 3,
+        "q": "\"O voo atrasou devido ao mau tempo.\" — Por que o voo atrasou?",
+        "options": ["Problemas mecânicos", "O clima", "Excesso de passageiros", "Uma greve"],
+        "answer": 1,
+        "explain": {
+          "pt": "Devido a = due to. Mau tempo = bad weather. 'Atrasado' significa delayed.",
+          "es": "Devido a = due to (debido a). Mau tempo = bad weather (mal tiempo). 'Atrasado' significa delayed (retrasado)."
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "saopaulo",
+    "track": "pt",
+    "flag": "🇧🇷",
+    "name": { "es": "São Paulo", "pt": "São Paulo" },
+    "level": { "es": "Avanzado", "pt": "Avançado" },
+    "desc": {
+      "es": "Condicionales, voz pasiva y vocabulario profesional.",
+      "pt": "Condicionais, voz passiva e vocabulário profissional."
+    },
+    "questions": [
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "Se a empresa _______ limites de uso antes, não teria estourado o orçamento.",
+        "options": ["definiria", "tivesse definido", "definiu", "define"],
+        "answer": 1,
+        "explain": {
+          "pt": "Terceiro condicional: Se + mais-que-perfeito do subjuntivo (tivesse definido), teria + particípio. Situação hipotética do passado.",
+          "es": "Tercera condicional: Si + pluscuamperfecto del subjuntivo (hubiera definido), habría + participio. Situación hipotética del pasado."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "O 'racional' por trás de uma decisão está mais próximo de:",
+        "options": ["A reação emocional", "A razão subjacente", "O custo financeiro", "O anúncio"],
+        "answer": 1,
+        "explain": {
+          "pt": "Racional/fundamento = rationale, a razão de base. Palavra comum em textos acadêmicos.",
+          "es": "Racional/fundamento = rationale, la razón de fondo. Palabra frecuente en textos académicos."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "O acesso ao novo modelo _______ pelo governo até que o marco regulatório seja finalizado.",
+        "options": ["restringe", "está sendo restringido", "restringiu", "restringia"],
+        "answer": 1,
+        "explain": {
+          "pt": "Voz passiva no presente contínuo: estar + sendo + particípio. Comum em textos técnicos.",
+          "es": "Voz pasiva en presente continuo: estar + siendo + participio. Común en textos técnicos."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "Os ETFs registraram 'saídas' líquidas de US$ 4,5 bilhões. O que são saídas?",
+        "options": ["Lucros gerados", "Dinheiro sendo retirado", "Novos investidores", "Taxas cobradas"],
+        "answer": 1,
+        "explain": {
+          "pt": "Saídas = outflows, dinheiro que sai (retiradas). O oposto são as entradas (inflows).",
+          "es": "Salidas = outflows, dinero que sale (retiros). Lo opuesto son las entradas (inflows)."
+        }
+      },
+      {
+        "type": "Reading",
+        "difficulty": 2,
+        "q": "\"A declaração foi rara, o que ressalta a gravidade da ameaça.\" — 'Ressalta' significa:",
+        "options": ["Contradiz", "Enfatiza", "Esconde", "Questiona"],
+        "answer": 1,
+        "explain": {
+          "pt": "Ressaltar = to underscore/emphasize. Sinônimos: destacar, enfatizar.",
+          "es": "Ressaltar = to underscore/emphasize (subrayar). Sinónimos: destacar, enfatizar."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "Quando pousarmos, a tripulação _______ três refeições.",
+        "options": ["vai servir", "terá servido", "tem servido", "está servindo"],
+        "answer": 1,
+        "explain": {
+          "pt": "Futuro do pretérito composto (equivalente a 'future perfect'): terá + particípio. Ação que estará concluída antes de um momento futuro.",
+          "es": "Futuro perfecto (equivalente a 'future perfect'): habrá + participio. Acción que estará completada antes de un momento futuro."
+        }
+      },
+      {
+        "type": "Vocabulary",
+        "difficulty": 2,
+        "q": "Um 'passivo' em um contexto financeiro é:",
+        "options": ["Um ativo que cresce", "Uma obrigação legal ou financeira", "Um tipo de seguro", "Uma margem de lucro"],
+        "answer": 1,
+        "explain": {
+          "pt": "Passivo = liability, obrigação financeira ou legal. Oposto de ativo (asset).",
+          "es": "Pasivo = liability, obligación financiera o legal. Opuesto de activo (asset)."
+        }
+      },
+      {
+        "type": "Grammar",
+        "difficulty": 3,
+        "q": "Não só _______ o exame, como também obteve a nota mais alta.",
+        "options": ["ela passou", "passou ela", "passou", "tinha passado"],
+        "answer": 2,
+        "explain": {
+          "pt": "Em português, 'não só... como também' não exige inversão de sujeito e verbo como em inglês: Não só passou o exame, como também...",
+          "es": "En portugués, 'não só... como também' no requiere inversión de sujeto y verbo como en inglés: Não só passou o exame, como también..."
         }
       }
     ]
